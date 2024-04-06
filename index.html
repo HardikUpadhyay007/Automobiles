@@ -7,152 +7,122 @@
         <link rel="stylesheet" href="index.css" />
     </head>
     <body>
-
-        <div class="full-page first-page">
+        <div class="full-page first-page" id="first-page">
             <div class="navbar">
                 <img
                     src="resources/logo-removebg-preview.png"
-                    alt="Logo"
-                    class="logo"/>
+                    alt=""
+                    id="logo"
+                />
                 <div class="links">
-                    <a href="#page1">Page 1</a>
-                    <a href="#page2">Page 2</a>
-                    <a href="#page3">Page 3</a>
-                    <a href="#page4">Page 4</a>
+                    <a href="#first1">Home</a>
+                    <a href="#second-page">About</a>
+                    <a href="#third-page">Inventory</a>
+                    <a href="#fourth-page">Services</a>
                 </div>
-                <button id="button1">Contact Us</button>
+                <button id="contact-btn">Contact Us</button>
             </div>
             <div id="first1">
-                <span>Welcome to<br> Jyoti <br />Automobiles</span><br>
-            
-                <p class="third1_text" style="font-weight: 100;">
+                <div style="margin-top: -100px">
+                    Welcome to<br />
+                    Jyoti <br />Automobiles
+                </div>
+                <br />
+
+                <p
+                    class="third1_text"
+                    style="font-weight: 100; margin-top: -100px"
+                >
                     Give your team the toolkit to stop configuring and start
-                    innovating. Securely build, deploy,<br> and scale the best
-                    web experiences.
+                    innovating. Securely build, deploy,<br />
+                    and scale the best web experiences.
                 </p>
-                <div id="start_button">
-                    <div id="button1">
-                        <button>Get Started</button>
-                    </div>
-                    <div id="button2" >
-                        <button>Contact Sales</button>
-                    </div>
+                <!-- <br /> -->
+                <div style="display: flex; justify-content: left; gap: 2vw">
+                    <p class="third1_text">Discover more about us</p>
+                    <hr id="hr" />
+                    <button id="button2">ABOUT US</button>
                 </div>
             </div>
             <div id="first2">
                 <img src="resources/porshe car.png" />
             </div>
         </div>
-        </div>
-        <div class="full-page second-page">
+        <div class="full-page second-page" id="second-page">
             <div id="second_sec">
-            <h1>About Prestige Motors</h1>
-            <span style="text-align: center">
-                We are committed to providing our customers with the finest
-                luxury vehicles. Our passion for excellence is reflected in
-                every car we offer.
-            </span>
+                <h1>About Prestige Motors</h1>
+                <span style="text-align: center">
+                    We are committed to providing our customers with the finest
+                    luxury vehicles. Our passion for excellence is reflected in
+                    every car we offer.
+                </span>
             </div>
-        </div>    
         </div>
-        <div class="full-page third-page">
+        <div class="full-page third-page" id="third-page">
             <div id="third_sec">
-            <div id="third1">
-                <h3 class="third1_head">Collaboration</h3>
-                <span class="third1_text">
-                    Make collaboration seamless with built-in code review
-                    tools.
-                </span>
+                <div id="third1">
+                    <h3 class="third1_head">Collaboration</h3>
+                    <span class="third1_text">
+                        Make collaboration seamless with built-in code review
+                        tools.
+                    </span>
 
-                <h3 class="third1_head">Automation</h3>
-                <span class="third1_text">
-                    Automate your workflow with continuous integration.
-                </span>
+                    <h3 class="third1_head">Automation</h3>
+                    <span class="third1_text">
+                        Automate your workflow with continuous integration.
+                    </span>
 
-                <h3 class="third1_head">Scale</h3>
-                <span class="third1_text">
-                    Deploy to the cloud with a single click and scale with
-                    ease.
-                </span>
+                    <h3 class="third1_head">Scale</h3>
+                    <span class="third1_text">
+                        Deploy to the cloud with a single click and scale with
+                        ease.
+                    </span>
+                </div>
+                <div id="third2">
+                    <img src="racing.png" />
+                </div>
             </div>
-            <div id="third2">
-                <img src="racing.png" />
-            </div>
         </div>
-        </div>
-        </div>
-        <div class="full-page fourth-page">
+        <div class="full-page fourth-page" id="fourth-page">
             <div id="forth_sec">
-            <div id="forth1">
-                <h1 id="forth1_head">Our Services</h1>
-                <span class="third1_text">
-                    Experience the finest in luxury car sales, rentals, and
-                    maintenance.
-                </span>
-            </div>
-            <div id="forth2">
-                <div id="mid_button">
-                    <div id="mid_button1">
-                        <button>Car Sales</button>
-                    </div>
-                    <div id="mid_button2">
-                        <button>Car Maintenance</button>
-                    </div>
-                    <div id="mid_button3">
-                        <button>Car Rentals</button>
+                <div id="forth1">
+                    <h1 id="forth1_head">Our Services</h1>
+                    <span class="third1_text">
+                        Experience the finest in luxury car sales, rentals, and
+                        maintenance.
+                    </span>
+                </div>
+                <div id="forth2">
+                    <div id="mid_button">
+                        <div id="mid_button1">
+                            <button>Car Sales</button>
+                        </div>
+                        <div id="mid_button2">
+                            <button>Car Maintenance</button>
+                        </div>
+                        <div id="mid_button3">
+                            <button>Car Rentals</button>
+                        </div>
                     </div>
                 </div>
             </div>
-            </div>
         </div>
-        <div class="full-page fifth-page">
+        <div class="full-page fifth-page" id="fifth-page">
             <div id="fifth_sec">
-            <div id="fifth1">
-                <h1 id="fifth1_head">Browse our Inventory</h1>
-                <span class="third1_text">
-                    Find the perfect luxury vehicle. Contact us to schedule
-                    a test drive.
-                </span>
-            </div>
-            </div>
-        </div>
-        </div>
-        <div class="full-page sixth-page">
-            <div id="sixth_sec">
-            <div id="sixth1">
-                <h1>CONTACT US</h1>
-                <span class="third1_text"
-                    >Have a question? Ready to make a purchase? Contact us
-                    and our team will be happy to assist you.</span
-                >
-            </div>
-            <div id="sixth2">
-                <form>
-                    <input
-                        class="input_form"
-                        type="textbox"
-                        placeholder="Name"
-                    /><br />
-                    <input
-                        class="input_form"
-                        type="textbox"
-                        placeholder="Email"
-                    /><br />
-                    <input
-                        class="input_form"
-                        type="textbox"
-                        placeholder="Phone"
-                    /><br />
-                    <input
-                        class="input_form"
-                        type="text"
-                        placeholder="Message"
-                    />
-                </form>
-            </div>
+                <div id="fifth1">
+                    <h1 id="fifth1_head">Browse our Inventory</h1>
+                    <span class="third1_text">
+                        Find the perfect luxury vehicle. Contact us to schedule
+                        a test drive.
+                    </span>
+                </div>
             </div>
         </div>
-        </div>
-
+        <script>
+            document.getElementById("contact-btn").onclick = function () {
+                // Replace 'destination.html' with the actual URL of the page you want to go to
+                window.location.href = "contact.html";
+            };
+        </script>
     </body>
 </html>

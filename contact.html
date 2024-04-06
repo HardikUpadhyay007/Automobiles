@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="contact.css" />
+    </head>
+    <body>
+        <div
+            id="container"
+            style="
+                background-image: linear-gradient(
+                        rgba(0, 0, 0, 0.5),
+                        rgba(0, 0, 0, 0.5)
+                    ),
+                    url(resources/contact-bg.jpg);
+            "
+        >
+            <div id="contact-form">
+                <div class="form-container">
+                    <p class="title">Contact Us</p>
+                    <form class="form">
+                        <div class="input-group">
+                            <label for="username">Name</label>
+                            <input
+                                type="text"
+                                name="name"
+                                id="name"
+                                placeholder=""
+                            />
+                        </div>
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input
+                                type="text"
+                                name="email"
+                                id="email"
+                                placeholder=""
+                            />
+                        </div>
+                        <div class="input-group">
+                            <label>Phone</label>
+                            <input
+                                type="text"
+                                name="phone"
+                                id="phone"
+                                placeholder=""
+                            />
+                        </div>
+                        <div class="input-group" id="feedback">
+                            <label>Feedback</label>
+                            <input
+                                type="text"
+                                name="feedback"
+                                id="feedback"
+                                placeholder=""
+                            />
+                        </div>
+                        <button class="sign">Sign in</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
